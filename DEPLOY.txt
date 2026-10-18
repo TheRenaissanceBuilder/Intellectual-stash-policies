@@ -1,0 +1,17 @@
+HUGH'S INTELLECTUAL STASH — PUBLIC POLICY SITE
+
+1. Review privacy.html and terms.html carefully. The text is a draft of intended service policies, not a certification that every feature is implemented.
+2. Confirm the project/program name exactly matches the brand being registered with Twilio.
+3. Before production SMS, implement and test STOP, HELP, consent records, and deletion/reset behavior. Do not represent future features as already complete.
+4. On github.com create a PUBLIC repository named intellectual-stash-policies.
+5. Upload index.html, privacy.html, terms.html and style.css to the repository root (not the enclosing folder).
+6. In repository Settings > Pages choose Deploy from a branch, branch main, folder / (root), then Save.
+7. Wait for GitHub Pages deployment. Public URLs will have a form similar to:
+   https://YOUR-USERNAME.github.io/intellectual-stash-policies/privacy.html
+   https://YOUR-USERNAME.github.io/intellectual-stash-policies/terms.html
+   These are EXAMPLES, not live links. Use your actual repository URL.
+8. Check both pages in a private/incognito browser window while signed out of GitHub; confirm HTTP 200 and visible content.
+9. Paste actual live URLs into Twilio A2P Campaign Registration. A Twilio reviewer must be able to access them without Tailscale or login.
+10. Link the policies in the verbal consent script used to gain prior permission for the initial SMS; retain honest dated consent records.
+
+IMPORTANT: The existing Hugh app is restricted to Tailscale, and these public informational pages do not expose it. GitHub Pages is hosted by GitHub, not Hugh. It does not store participant conversations or memories.
